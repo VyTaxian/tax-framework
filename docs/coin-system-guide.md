@@ -2,7 +2,9 @@
 
 ## Overview
 
-This system provides a complete coin collection, data store management, and rebirth progression system for Roblox games.
+This system is a demo and complete example of using the tax-framework to build real-world services. It provides a complete coin collection, data store management, and rebirth progression system for Roblox games.
+
+**This example is free and open for programmers to study and understand how to build services, controllers, and dependency injection with tax-framework.**
 
 ## Components
 
@@ -199,3 +201,13 @@ if not success then
     warn("Failed to save data")
 end
 ```
+
+## Learning Outcomes
+
+By studying this demo, you'll learn:
+- How to create services with tax-framework
+- Dependency injection patterns
+- Working with signals for event-driven architecture
+- DataStore integration and caching
+- Controller-service relationship
+- Building scalable game systems
