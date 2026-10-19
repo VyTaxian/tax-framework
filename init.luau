@@ -1,7 +1,18 @@
+local signalModule = require(script.core.signal)
+local promiseModule = require(script.core.promise)
+
 local server = require(script.core.server)
 local client = require(script.core.client)
 
 local Tax = {}
+
+function Tax.signal()
+	return signalModule.new()
+end
+
+function Tax.promise(resolver)
+	return promiseModule.new(resolver)
+end
 
 function Tax.createService(definition)
 	return server.createService(definition)
